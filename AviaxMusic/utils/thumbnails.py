@@ -93,8 +93,8 @@ async def gen_thumb(videoid: str):
     # Draw details
     draw = ImageDraw.Draw(bg)
     try:
-        title_font = ImageFont.truetype("ANNIEMUSIC/assets/thumb/font2.ttf", 40)
-        regular_font = ImageFont.truetype("ANNIEMUSIC/assets/thumb/font.ttf", 18)
+        title_font = ImageFont.truetype("AviaxMusic/assets/thumb/font2.ttf", 40)
+        regular_font = ImageFont.truetype("AviaxMusic/assets/thumb/font.ttf", 18)
     except OSError:
         title_font = regular_font = ImageFont.load_default()
 
