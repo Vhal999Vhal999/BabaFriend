@@ -7,9 +7,9 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
-from ShrutiMusic.utils.formatters import time_to_seconds
+from AviaxMusic.utils.formatters import time_to_seconds
 import aiohttp
-from ShrutiMusic import LOGGER
+from AviaxMusic import LOGGER
 
 YOUR_API_URL = None
 FALLBACK_API_URL = "https://shrutibots.site"
@@ -348,3 +348,4 @@ class YouTubeAPI:
                 return None, False
         except Exception:
             return None, False
+
