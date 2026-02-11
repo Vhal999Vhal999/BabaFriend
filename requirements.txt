@@ -10,11 +10,11 @@ httpx
 motor
 numpy
 opencv-python
-pillow==9.5.0
+pillow
 psutil
-py-tgcalls==0.9.7
+py-tgcalls
 pytgcrypto
-kurigram
+kurigram==2.1.35
 python-dotenv
 pyyaml
 requests
@@ -26,3 +26,4 @@ yt-dlp
 youtube-search
 youtube-search-python
 py-yt-search
+
